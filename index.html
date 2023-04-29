@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunny Side</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      
+      .hero{
+        height: 70vh;
+        background: url("image-header.jpg") no-repeat center/cover;
+      }
+       
+      a{
+        text-decoration: none;
+        margin-left: 20px;
+      
+      }
+      .nav{
+        position: relative;
+
+
+      }
+      .sunny{
+        position: absolute;
+      padding: 30px; }
+        
+      ul{
+        display: flex;
+        justify-content: right;
+        list-style: none;
+                padding: 30px;
+                
+}
+      
+                h1{
+                  display: flex;
+                  justify-content: center;
+                  color: antiquewhite;
+margin-top: 80px;                
+ font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;             }
+
+                .arrow{
+                  padding: 100px;
+                  display: flex;
+                  justify-content: center;}
+
+.two{
+  display: flex;
+  height: 700px;
+}
+.transform{
+  background: url("image-transform.jpg") no-repeat center center/cover;
+  width: 50%;
+  height: 100%;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+.down{
+  display: flex;
+  /* width: 100%; */
+
+
+  height: 550px;
+  /* height: 100%; */
+}
+.milkbottles {
+    width: 25%;
+}
+.orange {
+    width: 25%;
+}
+.cones {
+    width: 25%;
+}
+.sugarcubes {
+    width: 25%;
+}
+
+/* .milkbottles{
+  background: url("image-gallery-milkbottles.jpg")no-repeat center center/cover;
+  width: 50%;
+  height: 100%;
+}
+.orange{
+background: url("image-gallery-orange.jpg")no-repeat center center/cover;
+height: 100%;
+width: 50%;
+
+}
+.cones{
+background: url("image-gallery-cone.jpg")no-repeat center center/cover;
+width: 50%;
+height: 100%;
+}
+.sugarcubes{
+  background: url("image-gallery-sugarcubes.jpg")no-repeat center center/cover;
+  width: 50%;
+  height: 100%;
+} */
+.three{
+  display: flex;
+  height: 700px;
+}
+.graphic{
+  background: url("image-graphic-design.jpg") no-repeat center center/cover;
+  width: 50%;
+  height: 100%;
+}
+.photography{
+  background: url("image-photography.jpg") no-repeat center center/cover;
+  height: 100%;
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+
+}
+.photography, p {
+    width: 50%;
+}
+.four{
+  display: flex;
+  height: 700px;
+}
+.standout{
+  background: url("image-stand-out.jpg")no-repeat center center/cover;
+  height: 100%;
+  width: 50%;
+}
+.content2{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+.clients{
+  display: flex;
+  height: 543px;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+
+  
+justify-content: center;
+}
+.five{
+ color: darkgray;
+ display: flex;
+ justify-content: center;
+ padding: 100px;
+
+}
+
+.emilytext{
+color: darkgray;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 55%; 
+}
+.thomastext{
+  color: darkgray;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 55%; 
+}
+
+.jennietext{
+  color: darkgray;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 55%;
+}
+
+
+.sunnydown{
+    /* font-size: 30px; */
+    padding-top: 40px;
+}
+.instagram{
+    margin-left: 20px;
+}
+.pinterest{
+    margin-left: 20px;
+}
+.twitter{
+    margin-left: 20px;
+}
+footer{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    align-items: center;
+    background-color: black;
+}
+
+
+   .clients img{
+    border-radius: 50%;
+    max-width: 120px;
+
+   } 
+
+   .test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+   }
+   .content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+ 
+
+   @media (max-width:800px) {
+    
+    .down{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .milkbottles {
+        background: url("/mobile/image-gallery-milkbottles-mobile.jpg")no-repeat center/cover;
+    }
+.orange{
+    background: url("/mobile/image-gallery-orange.jpg") no-repeat  center/cover;
+}
+.cones{
+    background: url("mobile/image-gallery-cone.jpg")no-repeat center/cover;
+}
+.sugarcubes{
+    background: url("mobile/image-gallery-sugar-cubes.jpg")no-repeat  center/cover;;
+}
+.hero{
+    background: url(mobile/image-header.jpg)no-repeat center/cover;
+
+}
+.two{
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.four {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.transform{
+    width: 100%;
+}
+.standout {
+    width: 100%;
+}
+.content {
+    width: 100%;
+    height: 543px;
+
+}
+
+   .three{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+   }
+   .graphic{
+    width:100%
+
+   }
+   .photography{
+    width:100%
+   }
+   .clients {
+    flex-direction: column;
+   }
+   .up {
+    width: 50%;
+   }
+   .low {
+    width: 50%;
+   }
+
+
+   } 
+
+                 </style>
+  <head>
+
+  <body>
+    <header>
+      
+    </header>
+   <section class="one">
+      <div class="hero">
+        <nav>
+          <span class="sunny"><img src="logo.svg"></span>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <h1>WE ARE CREATIVES</h1>
+          <div class="arrow"><img src="icon-arrow-down.svg"></div>
+        </nav>
+        </div>
+        </section>
+
+          <section class="two">
+            <div class="content"><h2>Transform Your Brand</h2>
+        <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <p>Learn More</p></div>
+        <div class="transform"></div>
+        </section>
+
+        <section class="four">
+          <div class="standout"></div>
+          <div class="content"><h3>Stand out to the right audience</h3>
+          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+          <p>Learn more</p></div>
+        </section>
+<section class="three"><div class="graphic"></div>
+<div class="photography"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum soluta iste cum eveniet voluptate nulla neque similique sint, tenetur beatae atque a nemo enim, at repellendus quas obcaecati necessitatibus officiis?</p></div>
+</section>
+            <section class="five"><h3>CLIENT'S TESTIMONIALS</h3></section>
+
+     <section class="clients">
+      <div class="emily test"><img src="image-emily.jpg">
+        <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit</p>
+        
+      <h4>Emily R. Marketing Director</h4></div>
+      
+      <div class="thomas test"><img src="image-thomas.jpg">
+        <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+      <h4>Thomas S. Chief Operating Officer</h4></div>
+      
+      <div class="jennie test"><img src="image-jennie.jpg"><p>
+        Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended! 
+      </p>
+      
+      <h4>Jennie F. Business Owner</h4>
+      </div>
+     </section>  
+     <section class="down">
+      <img class="milkbottles up" src="/image-gallery-milkbottles.jpg">
+<img class="orange up" src="/image-gallery-orange.jpg">
+<img class="cones low" src="/image-gallery-cone.jpg">
+<img class="sugarcubes low" src="/image-gallery-sugar-cubes.jpg">
+     </section>
+     
+<footer>
+        <img class="sunnydown" src="/logo.svg">
+
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    <div>
+        <img class="facebook" src="/icon-facebook.svg">
+        <img class="instagram
+        " src="/icon-instagram.svg">
+        <img class="pinterest" src="/icon-pinterest.svg">
+        <img class="twitter" src="/icon-twitter.svg">
+     </div>
+</footer>
+<script src="script.js"></script>
+  </body>
+</html>
